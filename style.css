@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(images/developer.png);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container h1{
+    padding: 100px 200px;
+    color: white;
+    font-size: 50px;
+}
+.container h1 span{
+    font-size: 35px;
+}
+.work {
+background-color: black;
+}
+.work h2{
+   text-align: center;
+   color: white;
+   padding: 40px;
+   font-size: 45px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+.cards{
+    max-width: 320px;
+    height: 400px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    border-radius: 10px;
+    transition: ease-in-out 0.2s;
+  
+}
+.cards:hover{
+    transform: scale(1.04);
+    transition: ease-in-out 0.2s;
+
+}
+.cards h3{
+    padding: 10px;
+}
+.cards p{
+    padding: 10px;
+}
+.end-section{
+    display: flex;
+     flex-direction: row;
+    
+}
+.contact-div{
+    background-color: #f5ebe0;
+}
+.about-div{
+    background-color: #00afb9;
+}
+.contact-div p{
+    padding: 10px;
+}
+.contact-div h4{
+    padding: 10px;
+}
+.about-div p{
+    padding: 10px;
+}
+.about-div h4{
+    padding: 10px;
+}
+.contact-div span{
+    padding: 10px;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.cards img{
+    width: 100%;
+}
+
+
+
+@media (max-width:600px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px 10px;
+        
+        
+    }
+    .end-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .container h1{
+        font-size: 30px;
+        padding: 200px 30px;
+    }
+    .container h1 span{
+        font-size: 20px;
+    }
+    
+}
+@media (min-width:320px) {
+    .container h1{
+        padding: 150px  20px;
+    }
+   
+}
+
+@media (min-width:768px) {
+    .hero{
+       display: flex;
+       flex-direction: row;
+       gap: 30px;
+       padding: 30px 50px;
+    }
+    .container h1{
+        padding: 120px 30px;
+    }
+}
+@media (min-width:992px) {
+    .hero{
+        display: flex;
+        flex-direction: row;
+        padding: 20px 40px;
+        gap: 20px;
+    }
+
+}
